@@ -8,8 +8,8 @@ public class App {
 	public static void main(String[] args) {
 		PassengerDO passengerDO = new PassengerDO();
 		passengerDO.setId(100);
-		passengerDO.setName("prabhu");
-		passengerDO.setMail("prabhu@gmail.com");
+		passengerDO.setName("ganesh");
+		passengerDO.setMail("ganesh@gmail.com");
 		passengerDO.setDob(new java.sql.Date(new java.util.Date().getTime()));
 
 		PassengerDAO hibDAO = new com.msrm.orm.hibernate.dao.impl.PassengerDAOImpl();
